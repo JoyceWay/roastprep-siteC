@@ -1,10 +1,9 @@
 # roastprep-siteC
 
-The public copy of the website for **roastprep.com**.
+The public copy of the website at **roastprep.com**.
 
-roastprep.com itself is served by Cloudflare Pages (direct upload). This repository is the public record of what is uploaded there, and GitHub Pages shows a preview of it at https://joyceway.github.io/roastprep-siteC/ .
+roastprep.com itself is served by Cloudflare Pages (direct upload). This repository is the public record of what is uploaded there.
+It holds only the pages that are served: the front page, the privacy page, and the episodes that are online. Nothing else belongs here.
+The project itself lives in a private repository, where these files are built and tested before each upload.
 
-This repository holds only the pages that are served. Nothing else belongs here: no plans, scripts, word lists, prompts or review notes.
-The project itself lives in a private repository. At launch, the built site is copied into this one and uploaded to Cloudflare Pages.
-
-Right now the site is a single "Coming soon" page. It loads no scripts, fonts or trackers and sets no cookies.
+The pages load no scripts, fonts or trackers from other servers and set no cookies.
