@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RoastPrep · Coming soon</title>
+<meta name="description" content="RoastPrep: SAT words, learned through true stories. Coming soon.">
+<style>
+  :root { --paper:#FBF6EC; --ink:#15131C; --muted:#5E5A70; --cobalt:#2B4BFF; --mark:#FFE14A; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#100F16; --ink:#F5F2EA; --muted:#A6A2B8; --cobalt:#8FA0FF; } }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--paper); color: var(--ink); font-family: "Avenir Next", "Segoe UI", system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+         display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; text-align: center; }
+  main { max-width: 34rem; }
+  .brand { font-weight: 800; font-size: 1.05rem; letter-spacing: .02em; color: var(--cobalt); margin: 0 0 28px; }
+  h1 { font-size: clamp(2.1rem, 9vw, 3.4rem); line-height: 1.05; font-weight: 800; margin: 0 0 22px; text-wrap: balance; }
+  h1 span { background: linear-gradient(transparent 58%, var(--mark) 58%); padding: 0 4px; }
+  @media (prefers-color-scheme: dark) { h1 span { background: none; text-decoration: underline; text-decoration-color: var(--mark); text-decoration-thickness: .14em; text-underline-offset: .18em; } }
+  .soon { display: inline-block; background: var(--ink); color: var(--paper); font-weight: 800; font-size: 1.05rem; padding: 10px 20px 11px; border-radius: 999px; margin: 0; }
+  .zh { color: var(--muted); font-size: .95rem; margin: 14px 0 0; }
+  footer { position: fixed; left: 0; right: 0; bottom: 0; padding: 16px 24px 20px; color: var(--muted); font-size: .78rem; line-height: 1.5; }
+  @media (max-height: 520px) { footer { position: static; margin-top: 40px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand">RoastPrep</p>
+  <h1>SAT words, learned through <span>true stories</span>.</h1>
+  <p class="soon">Coming soon</p>
+  <p class="zh" lang="zh-Hans">即将上线</p>
+</main>
+<footer>© 2026 RoastPrep · SAT is a trademark of the College Board, which is not affiliated with and does not endorse RoastPrep.</footer>
+</body>
+</html>
